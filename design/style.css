@@ -1,6 +1,11 @@
 /* shared  */
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
+.header{
+    background-image: url("../images/developer.png") , url("/images/header_bg.png");
+    background-repeat: no-repeat;
+    background-position: left top , right bottom;
+}
 * {
     font-family: "Open Sans";
 }
@@ -21,6 +26,10 @@
     padding: 18px 35px;
 }
 
+.Dark-01{
+    color: #181818;
+}
+
 .Dark-02 {
     color: #474747;
 }
@@ -31,7 +40,8 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    margin: 10px 200px;
+    /* margin: 10px 226px; */
+     
 }
 
 nav ul {
@@ -64,3 +74,34 @@ nav li a {
      
 
 } */
+/* banner style */
+.baner{
+    display: flex;
+    margin: 0 35px 0 230px;
+    justify-content: space-around;
+    align-items: center;
+}
+.baner-container{
+    max-width: 580px;
+
+}
+.baner-pic{
+    max-width: 580px;
+}
+
+.baner-greeting {
+
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.baner-title {
+    
+    font-family: "Open Sans";
+    font-size: 85px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
