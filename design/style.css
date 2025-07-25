@@ -14,7 +14,7 @@
 * {
     font-family: "Open Sans";
 }
- 
+
 
 .text-primary {
     color: #FD6E0A;
@@ -35,9 +35,11 @@
 .Dark-01 {
     color: #181818;
 }
-.text-center{
+
+.text-center {
     text-align: center;
 }
+
 .Dark-02 {
     color: #474747;
 }
@@ -153,25 +155,54 @@ main {
     padding: 131px 157px;
     margin-top: 130px;
 }
-.about-items{
+
+.about-items {
     display: flex;
     justify-content: space-around;
     text-align: center;
 }
-.item-description{
+
+.item-description {
     font-weight: 600;
 }
 
 /* skills design */
-.skills-container{
+.skills-container {
     display: flex;
-    justify-content: space-around;  
+    justify-content: space-around;
     margin-bottom: 120px;
     gap: 20px;
 
 }
-.skill{
+
+.skill {
     width: 267px;
     padding: 30px;
     box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+
+/* resume design */
+.resume-container {
+    display: flex;
+    justify-content: space-around;
+    gap: 71px;
+}
+.amr-title{
+    margin-bottom: 30px;
+}
+
+.experience .ex-title {
+    font-weight: bold;
+    margin-bottom: 20px;
+
+}
+.experience .ex-sub-title{
+    margin-bottom: 20px;
+}
+
+hr {
+    margin: 40px 3px 40px 3px;
+}
+.resume-container{
+    margin-bottom: 69px;
 }
